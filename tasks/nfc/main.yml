@@ -1,0 +1,5 @@
+---
+- name: Install NFC-Software
+  include_tasks: nfc/install.yml
+  when:
+    - do_nfcDevice
